@@ -1,55 +1,169 @@
-# Prerequisites
-*.d
+###############################################################################
+# 🧱 CORE BUILD ARTIFACTS (C / C++ / C# / Python)
+###############################################################################
 
-# Object files
+# Object and intermediate files
 *.o
-*.ko
 *.obj
+*.ko
 *.elf
-
-# Linker output
 *.ilk
 *.map
 *.exp
+*.idb
+*.pdb
+*.mod*
+*.cmd
+*.dwo
 
-# Precompiled Headers
+# Precompiled headers
 *.gch
 *.pch
 
-# Libraries
-*.lib
+# Static libraries
 *.a
+*.lib
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
-*.dll
+# Shared libraries / dynamic libraries
 *.so
 *.so.*
 *.dylib
+*.dll
 
 # Executables
 *.exe
 *.out
 *.app
+*.run
+*.bin
+*.hex
 *.i*86
 *.x86_64
-*.hex
 
-# Debug files
+# Debug, logs, and core dumps
 *.dSYM/
+*.stackdump
+*.core
 *.su
-*.idb
-*.pdb
+*.d
+*.log
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
+# Kernel module and driver build files
 .tmp_versions/
 modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
-*.dwo
+###############################################################################
+# 🐍 PYTHON
+###############################################################################
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python logs / profiling
+*.coverage
+coverage.xml
+*.cover
+*.py,cover
+*.prof
+*.pstats
+*.sqlite3
+*.manifest
+
+###############################################################################
+# 💻 C# / .NET
+###############################################################################
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]est[Rr]esult*/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# Auto-generated files
+*.Generated.cs
+*.designer.cs
+*.AssemblyInfo.cs
+
+# NuGet packages
+*.nupkg
+# except when necessary to track built packages
+# !packages/build/
+# !packages/repositories.config
+
+# Visual Studio settings
+.vs/
+*.psess
+*.vsp
+*.vspx
+
+# Rider / JetBrains
+.idea/
+
+###############################################################################
+# 🧰 GENERAL DEVELOPMENT TOOLS
+###############################################################################
+
+# Build directories
+/build/
+/bin/
+/debug/
+/release/
+
+# IDE / Editor files
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+###############################################################################
+# 🐧 LINUX / 🪟 WINDOWS SPECIFICS
+###############################################################################
+
+# Linux temporary / system files
+*.pid
+*.seed
+*.pid.lock
+
+# Windows specific temp files
+*.lnk
+*.stackdump
+
+###############################################################################
+# ✅ END OF FILE
+###############################################################################
