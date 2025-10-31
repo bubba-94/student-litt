@@ -17,9 +17,7 @@ int main() {
 
     // Ask for difficulty level
     printf("Difficulty level of jump: ");
-    if (!fgets(line, sizeof(line), stdin) || sscanf(line, "%d", &level) != 1)
-        return 1;
-
+      
     // Get referee scores
     for (int i = 0; i < referees; i++) {
         printf("Referee [%d] score: ", i + 1);
