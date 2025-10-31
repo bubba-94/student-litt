@@ -3,7 +3,7 @@
 MAKEFLAGS += --no-print-directory
 
 CC      = gcc
-C_FLAGS  = -Wall -Wextra -std=c11 
+C_FLAGS  = -Wall -Wextra -std=c11 -g -O0
 LD_FLAGS = -lm
 BUILD   = build
 
