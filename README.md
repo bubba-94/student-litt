@@ -17,7 +17,7 @@ I am reading this book to learn about the basics and refresh my memory for my up
 
 ## C Från Början
 
-[Folder link] to C Från Början(C-Fran-Borjan)
+[Folder link](#c-från-början) to C Från Början
 
-A swedish book published later than Practical C, this book is more updated and is written in swedish.
+A swedish book published in 2016, this book is more updated and is written in swedish.
 I reckon it is a good practice to always refresh your knowledge and use information provided from all languages you know.
