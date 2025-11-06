@@ -1,30 +1,42 @@
 #include <stdio.h>
+#include <string.h>
 
 /*
     Create a version of strcat
 */
 
-void my_strcat(char* arr1, const char *arr2);
+char* my_strcat(char* arr1, const char *arr2);
 
 int main (){
 
     char arr1[] = "Hello";
     char arr2[] = "World";
 
-    my_strcat(arr1, arr2);
+    strcat(arr1,arr2);
 
-    printf("%s", arr1);
+    printf("Using strcat: %s\n", arr1);
+
+    // Should become HelloWorld World
+    // When used after original strcat
+    my_strcat(arr1, arr2);
+    printf("Using my_strcat: %s\n", arr1);
+    return 0;
 }
 
-void my_strcat(char* arr1, const char *arr2){
-    int count = 0;
-    while (*arr1++ != '\0'){
-        count++;
-    }
-    arr1 = arr1+count;
+char* my_strcat(char* dest, const char *src){
+    int length = strlen(dest);
+    while (*dest++){
 
-    while (*arr1++ = count + *arr2++){
-        ;
-    }
+        // Find last index before termination
+        if (*dest == *dest + length){
 
+            // Add new string
+            *dest = *src;
+            while(*src++){
+                if(*src == '\0'){
+                    return dest;
+                }
+            } 
+        }
+    }
 }
