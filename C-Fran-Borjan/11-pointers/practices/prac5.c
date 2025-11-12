@@ -9,7 +9,7 @@ char* my_strcat(char* arr1, const char *arr2);
 
 int main (){
 
-    char arr1[] = "Hello";
+    char arr1[30] = "Hello";
     char arr2[] = "World";
 
     strcat(arr1,arr2);
@@ -28,15 +28,9 @@ char* my_strcat(char* dest, const char *src){
     while (*dest++){
 
         // Find last index before termination
-        if (*dest == *dest + length){
-
-            // Add new string
+        if (*dest == '\0'){
             *dest = *src;
-            while(*src++){
-                if(*src == '\0'){
-                    return dest;
-                }
-            } 
+            *src++;
         }
     }
 }
