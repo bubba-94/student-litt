@@ -7,6 +7,7 @@ I am going to read these books to prepare myself for my new career path and to a
 
 1. [Practical C](#practical-c)
 2. [C Från Början](#c-från-början)
+3. [learncpp.com](#learn-cpp)
 
 ## Practical C
 
@@ -21,3 +22,9 @@ I am reading this book to learn about the basics and refresh my memory for my up
 
 A swedish book published in 2016, this book is more updated and is written in swedish.
 I reckon it is a good practice to always refresh your knowledge and use information provided from all languages you know.
+
+## learn.cpp
+
+[Folder link](#learn-cpp) to learn.cpp folder.
+
+A well renouned website that cover the foundations of c++ and what you can do.
