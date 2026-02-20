@@ -27,4 +27,4 @@ I reckon it is a good practice to always refresh your knowledge and use informat
 
 [Folder link](#learn-cpp) to learn.cpp folder.
 
-A well renouned website that cover the foundations of c++ and what you can do.
+A well renouned website that cover the foundations of C++ and it's basic aspects.
